@@ -17,3 +17,13 @@ My first data analysis project using Python.
 - Female survival rate was higher than male.
 - First class passengers had the highest survival rates.
 - Most passengers were between 20–35 years old.
+- ## Charts
+
+### Survival by Gender
+![Gender Chart](gender_chart.png)
+
+### Survival by Passenger Class
+![Class Chart](class_chart.png)
+
+### Age Distribution
+![Age Histogram](age_histogram.png)
