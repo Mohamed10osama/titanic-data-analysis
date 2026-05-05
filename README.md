@@ -1,44 +1,19 @@
-# Titanic Survival Prediction 🚢
+# Titanic Data Analysis
 
-## Overview
-A Machine Learning model that predicts which passengers survived the Titanic shipwreck.
+My first data analysis project using Python.
 
-## Dataset
-- 891 passengers
-- Source: Kaggle Titanic Dataset
-
-## Steps
-1. EDA - Explored survival by sex, class, and age
-2. Data Cleaning - Handled missing values
-3. Model - Random Forest Classifier
-4. Evaluation - 80% accuracy
-
-## Results
-| Metric | Score |
-|--------|-------|
-| Accuracy | 80% |
-| Precision | 79% |
-| Recall | 79% |
-## Results
-
-### Survival Count
-![Survival Count](survival_count.png)
-
-### Survival by Sex
-![Survival by Sex](survival_sex.png)
-
-### Survival by Class
-![Survival by Class](survival_Pclass.png)
-
-### Age Distribution
-![Age Distribution]("survival_Age.png)
-
-### Confusion Matrix
-![Confusion Matrix](Confusion_matrix.png)
-
-## Technologies
-- Python
+## Tools Used
 - Pandas
-- Scikit-learn
 - Matplotlib
-- Seaborn
+- Jupyter Notebook
+
+## Project Steps
+- Load CSV dataset
+- Clean missing values
+- Analyze survival patterns
+- Create 3 charts
+
+## Findings
+- Female survival rate was higher than male.
+- First class passengers had the highest survival rates.
+- Most passengers were between 20–35 years old.
